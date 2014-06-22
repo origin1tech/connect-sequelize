@@ -53,7 +53,8 @@ var sequelize = new Sequelize(
 "username",
 "password", {
     "dialect": "sqlite",
-    "storage": "./session.sqlite"
+    "storage": "./session.sqlite",
+    "table": "Session"
 });
 
 // configure express
