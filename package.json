@@ -1,0 +1,50 @@
+{
+  "name": "connect-sequelize",
+  "version": "0.0.1",
+  "description": "Session store for connect/express sessions via sequelize based solely on the wonderful work from https://github.com/mweibel/connect-session-sequelize",
+  "homepage": "https://github.com/origin1tech/connect-sequelize",
+  "bugs": "https://github.com/origin1tech/connect-sequelize/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/origin1tech/connect-sequelize"
+  },
+  "dependencies": {
+    "debug": "^0.7.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0",
+    "sqlite3": "~2.2.0",
+    "connect": "~2.12.0",
+    "sequelize": ">= 1.6.0"
+  },
+  "peerDependencies": {
+    "sequelize": ">= 1.6.0"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "express",
+    "connect-session",
+    "connect",
+    "sequelize",
+    "postgres",
+    "mysql",
+    "sqlite"
+  ],
+  "author": {
+    "name": "Michael Weibel",
+    "email": "michael.weibel@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Carey Hazelton",
+      "email": "origin1tech@gmail.com"
+    }
+  ],
+  "license": "MIT"
+}
