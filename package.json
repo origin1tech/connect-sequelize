@@ -1,6 +1,6 @@
 {
   "name": "connect-sequelize",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Session store for connect/express sessions via sequelize based solely on the wonderful work from https://github.com/mweibel/connect-session-sequelize",
   "homepage": "https://github.com/origin1tech/connect-sequelize",
   "bugs": "https://github.com/origin1tech/connect-sequelize/issues",
