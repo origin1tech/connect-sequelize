@@ -1,7 +1,12 @@
 # Connect Session Store using Sequelize
-[![Build Status](https://travis-ci.org/mweibel/connect-session-sequelize.png)](https://travis-ci.org/mweibel/connect-session-sequelize)
 
 connect-session-sequelize is a SQL session store using [Sequelize.js](http://sequelizejs.com).
+
+#IMPORTANT
+
+**NOTE this project is really just a fork renamed (consistent with connect-mongo, connect-redis etc.) along with the added feature of being able to define the Session table name within your SQL database.
+
+Thanks to [Michael Weibel](https://github.com/mweibel) for the awesome work!!!
 
 # Installation
 Please note that the most recent version requires **express 4.** If you use *express 3* you should install version 0.0.5 and follow [the instructions in the previous README](https://github.com/mweibel/connect-session-sequelize/blob/7a446de5a7a2ebc562d288a22896d55f0fbe6e5d/README.md).
