@@ -1,16 +1,16 @@
 
-var assert = require('assert')
-	, connect = require('connect')
-	, SequelizeStore = require('./lib/connect-session-sequelize')(connect.session.Store)
-	, Sequelize = require('sequelize');
+var assert = require('assert'),
+	connect = require('connect'),
+    SequelizeStore = require('../lib/connect-sequelize')(connect.session),
+	Sequelize = require('sequelize');
 
 var db = new Sequelize('session_test', 'test', '12345', {
-		dialect: 'sqlite'
-		, logging: false
-	})
-	, store = new SequelizeStore({db: db})
-	, sessionId = '1234a'
-	, sessionData = {foo: 'bar', 'baz': 42};
+		dialect: 'sqlite',
+		logging: false
+	}),
+	store = new SequelizeStore(db),
+	sessionId = '1234a',
+	sessionData = {foo: 'bar', 'baz': 42};
 
 describe('connect-session-middleware', function() {
 	it('should have no length', function() {
