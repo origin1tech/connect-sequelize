@@ -72,7 +72,7 @@ var express = require('express'),
     session = require('express-session');
 
 // initalize sequelize with session store
-var SequelizeStore = require('connect-sequelize')(session.Store),
+var SequelizeStore = require('connect-sequelize')(session),
     modelName = 'Session',
     options = {
         // our options if any. see above for example.
