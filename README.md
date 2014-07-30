@@ -47,6 +47,10 @@ if you wanted your model name to be "Session" but you have some convention for y
 }
 ```
 
+In addition you can specify a 'callback' in options that takes a function with
+one argument ("error"). The callback is triggered when database model was
+synchronized with the database.
+
 #Usage
 
 With connect
