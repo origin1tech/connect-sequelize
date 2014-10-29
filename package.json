@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "debug": "^0.7.4",
-    "sequelize": "^1.7.9"
+    "sequelize": "^1.7.10"
   },
   "devDependencies": {
     "sqlite3": "^2.2.0",
