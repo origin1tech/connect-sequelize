@@ -1,6 +1,6 @@
 {
   "name": "connect-sequelize",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "description": "Session store for connect/express sessions via sequelize based on the wonderful work from https://github.com/mweibel",
   "homepage": "https://github.com/origin1tech/connect-sequelize",
   "bugs": "https://github.com/origin1tech/connect-sequelize/issues",
@@ -15,14 +15,14 @@
   "dependencies": {
     "debug": "^0.7.4",
     "express": "^4.4.2",
-    "sequelize": "^1.7.10"
+    "sequelize": "^3.3.1"
   },
   "devDependencies": {
     "connect": "^3.3.2",
     "mocha": "^2.0.1"
   },
   "peerDependencies": {
-    "sequelize": ">= 1.7.10"
+    "sequelize": "^3.3.1"
   },
   "engines": {
     "node": "*"
